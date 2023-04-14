@@ -1,0 +1,47 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    tr {
+        text-align: center;
+        display: table-row;
+        border-color: inherit;
+        td {
+            line-height: 6;
+            &.border-inicial{
+                border-radius: 8px 0px 0px 8px;
+            }
+            &.border-final{
+                border-radius: 0px 8px 8px 0px;
+            }
+            img{
+                width: 64px;
+                border-radius: 8px;
+                vertical-align: middle;
+            }
+            a{
+                img{
+                    height: 18px;
+                    width: 16px;
+                    border-radius: 0px;
+                    margin: 0px 5px;
+                    cursor: pointer;
+                }
+            }
+        }
+        &.espacio{
+            height: 10px;
+            background-color: transparent;
+        }
+    }
+    
+    thead {
+        height: 70px;
+        background-color: $bg-gray;
+        color: $gray-dark;
+    }
+    
+    tbody {
+        border-radius: 8px;
+        background-color: $white;
+    }
+}
