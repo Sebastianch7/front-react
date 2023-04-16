@@ -78,7 +78,9 @@
     top: 15px;
     cursor: pointer;
     transition: all 2000ms;
+    
     &.active{
         transform: rotate(180deg);
+        text-decoration: none;
     }
 }

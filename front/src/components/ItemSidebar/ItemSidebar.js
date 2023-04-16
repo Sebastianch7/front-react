@@ -1,12 +1,13 @@
 import React from 'react';
 
-function ItemSidebar({ img = '', text = '', clase = ''  }) {
+function ItemSidebar({ img = '', text = '', clase = '', url  }) {
     return (
         <div>
-            <li className={clase}>
+            <a href={url}><li className={clase}>
                 <img src={img} alt='img' />
                 {text}
             </li>
+            </a>
         </div>
     );
 }

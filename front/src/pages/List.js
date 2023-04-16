@@ -35,7 +35,7 @@ function List(props) {
                 <div className="flex justify-content-between">
 
                     <h2>Client List</h2>
-                    <a href='' className="btn btn-primary btn-small">ADD NEW CLIENT</a>
+                    <a href='/create' className="btn btn-primary btn-small">ADD NEW CLIENT</a>
                 </div>
                 <hr />
                 <table>

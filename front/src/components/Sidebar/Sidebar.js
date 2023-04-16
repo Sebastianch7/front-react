@@ -27,7 +27,7 @@ function Sidebar({ props }) {
             <ul>
                 <ItemSidebar text="home" img="./icon/home.png" clase="" />
                 <ItemSidebar text="course" img="./icon/course.png" clase="" />
-                <ItemSidebar text="clients" img="./icon/clients.png" clase="selected" />
+                <ItemSidebar url="list" text="clients" img="./icon/clients.png" clase="selected" />
                 <ItemSidebar text="payment" img="./icon/payment.png" clase="" />
                 <ItemSidebar text="report" img="./icon/report.png" clase="" />
                 <ItemSidebar text="settings" img="./icon/settings.png" clase="" />

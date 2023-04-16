@@ -12,9 +12,9 @@ function Card({props}) {
                 <p>Enter your credentials to access your account</p>
             </div>
             <div className="card-body">
-                <form action="" method='post'>
-                    <Input label={"password"} text={"password"} field={"password"} />
+                <form action="/list" method='post'>
                     <Input label={"email"} text={"email"} field={"email"} />
+                    <Input label={"password"} text={"password"} field={"password"} />
                     <div className="form-group">
                         <button type='submit' className="btn btn-primary">SIGN IN</button>
                     </div>
